@@ -16,6 +16,30 @@
 
 }
 
+/*global styles*/
+
+#hero h1, h2, h3 {
+    font-family: var(--cursive-font);
+    color: var(--secondary-color);
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    font-family: var(--secondary-font);
+}
+
+.navbar-brand {
+    color: var(--highlight-color);
+}
+
+.nav-link {
+    color: var(--highlight-color);
+}
+
+.nav-link :active {
+    color: var(--secondary-color);
+}
+
 #hero {
     background-color:#5C4033;
     background-image: url(../images/lr-alt-header-image.jpg);
