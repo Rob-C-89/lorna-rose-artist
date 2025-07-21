@@ -1,11 +1,26 @@
 
+/*Google Fonts import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+
+/*CSS Variables*/
+
+:root {
+  --cursive-font: "Tangerine", cursive;
+  --primary-font:  "Libre Baskerville", serif;
+  --secondary-font:  "Noto Sans", sans-serif;
+  --primary-color: #5C4033; /*dark brown*/
+  --secondary-color:bisque; /*vanilla*/
+  --highlight-color: #a2d4ca; /*cutty sark (light blue)*/
+  --light-highlight-color: #a7dddc; /*aquamarine*/
+
+}
+
 #hero {
-    background-color:;
+    background-color:#5C4033;
     background-image: url(../images/lr-alt-header-image.jpg);
     min-height: 180px;
     background-size: cover;
     background-position: 50% 70%;
-    color:#d3bea8;
-
-
+    color:bisque;
 }
