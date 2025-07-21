@@ -22,10 +22,9 @@ body {
     background-color: var(--secondary-color);
 }
 
-#hero {
-    font-family: var(--cursive-font);
-    color: var(--secondary-color);
-}
+
+
+/* Navbar */
 
 .navbar {
     background-color: var(--primary-color);
@@ -44,6 +43,8 @@ body {
     color: var(--secondary-color);
 }
 
+/*Header*/
+
 #hero {
     background-color:#5C4033;
     background-image: url(../images/lr-alt-header-image.jpg);
@@ -51,4 +52,31 @@ body {
     background-size: cover;
     background-position: 50% 70%;
     color:bisque;
+}
+
+#hero {
+    font-family: var(--cursive-font);
+    color: var(--secondary-color);
+}
+
+/*Footer*/
+
+#footer {
+    background-color: var(--primary-color);
+    color: var(--highlight-color);
+}
+
+#social-media {
+    justify-content: right;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+#social-media i {
+    font-size: 180%;
+    padding: 20px;
+    color: var(--highlight-color);
+
 }
