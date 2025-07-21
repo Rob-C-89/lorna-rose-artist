@@ -18,7 +18,11 @@
 
 /*global styles*/
 
-#hero h1, h2, h3 {
+body {
+    background-color: var(--secondary-color);
+}
+
+#hero {
     font-family: var(--cursive-font);
     color: var(--secondary-color);
 }
