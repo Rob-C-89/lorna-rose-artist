@@ -16,11 +16,17 @@
 
 }
 
+
+
 /*global styles*/
 
 body {
     background-color: var(--secondary-color);
+   
 }
+
+
+
 
 
 
@@ -39,19 +45,21 @@ body {
     color: var(--highlight-color);
 }
 
-.nav-link :active {
+.active {
     color: var(--secondary-color);
 }
 
 /*Header*/
 
 #hero {
+ 
     background-color:#5C4033;
     background-image: url(../images/lr-alt-header-image.jpg);
-    min-height: 180px;
+    min-height: 150px;
     background-size: cover;
     background-position: 50% 70%;
     color:bisque;
+
 }
 
 #hero {
@@ -59,15 +67,22 @@ body {
     color: var(--secondary-color);
 }
 
+/*Main section*/
+
+/*About*/
+
+
 /*Footer*/
 
 #footer {
     background-color: var(--primary-color);
     color: var(--highlight-color);
+    margin: 0;
+    max-width: unset;
 }
 
 #social-media {
-    justify-content: right;
+    justify-content: center;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
