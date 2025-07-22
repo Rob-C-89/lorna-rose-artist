@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorna Rose | Artist | Contact</title>
-    <meta name="description" content="Contact page for professional artist Lorna Rose">
+    <title>Lorna Rose | Artist | Home</title>
+    <meta name="description" content="Website for professional artist Lorna Rose">
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!--Custom CSS-->
@@ -22,7 +22,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link " aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.html#about">About</a>
@@ -34,10 +34,10 @@
           <a class="nav-link" href="index.html#tutor">Tuition</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
+          <a class="nav-link active" href="gallery.html">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="contact.html">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
      
@@ -57,44 +57,70 @@
 
 <!--Main Content-->
 <main>
-    <section id="contact-intro" class="container">
+    <section id="gallery" class="container">
         <div class="row">
-            <div class="col-12">
-                <h2>Contact</h2>
-                <p>Please send me a message if you are interested in purchasing artwork, commissioning a portrait or booking an art lesson.</p>
-
+            <div class="col-12 text-center">
+                <h2>Gallery</h2>
             </div>
+
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card" style="width: 18rem;">
+  <img src="assets/images/lr-image-1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card" style="width: 18rem;">
+  <img src="assets/images/lr-image-2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card" style="width: 18rem;">
+  <img src="assets/images/lr-image-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card" style="width: 18rem;">
+  <img src="assets/images/lr-image-4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card" style="width: 18rem;">
+  <img src="assets/images/lr-image-5.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+
         </div>
-    </section>
 
-    <section id="contact" class="container" >
-        <form class="row">
-            <div class="mb-3 col-12 col-md-6 col-lg-4">
-                <label for="full-name" class="form-label">Full Name</label>
-                <input type="name" class="form-control" id="full-name" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3 col-12 col-md-6 col-lg-4">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3 col-12 col-md-6 col-lg-4">
-                <label for="exampleInputEmail1" class="form-label">Subject</label>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected value="">Please select</option>
-                    <option value="1">Purchase artwork</option>
-                    <option value="2">Commission a portrait </option>
-                    <option value="3">Art Lesson</option>
-                    <option value="4">Other</option>
-                </select>                             
-            </div>
-            <div class="mb-3 col-12">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-        </form>
     </section>
 </main>
 
