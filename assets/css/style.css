@@ -73,7 +73,12 @@ body {
 
 /*Contact*/
 
+/*Gallery*/
 
+/*center the gallery images on smaller screens*/
+ .card {
+    margin: auto;
+ }
 
 /*Footer*/
 
