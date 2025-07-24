@@ -25,7 +25,21 @@ body {
    
 }
 
+h1 {
+    font-family: var(--cursive-font);
+    font-size: 400%;
+}
 
+h2 {
+    text-align: center;
+    font-family: var(--primary-font);
+}
+
+
+
+p {
+    font-family: var(--secondary-font);
+}
 
 
 
@@ -36,7 +50,7 @@ body {
 
 .navbar {
     background-color: var(--primary-color);
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
 }
 
 .navbar-brand {
@@ -53,10 +67,12 @@ body {
 
 /*Header*/
 
-/*header{
-    margin: 0;
+header h2{
+    font-family: var(--cursive-font);
+    font-size: 200%;
 }
-*/
+
+
 #hero {
  
     background-color:#5C4033;
@@ -69,7 +85,6 @@ body {
 }
 
 #hero {
-    font-family: var(--cursive-font);
     color: var(--secondary-color);
 }
 
