@@ -96,6 +96,11 @@ header h2{
 
 /*Main section*/
 
+.home-img {
+    display: flex;
+    justify-content: center;
+}
+
 /*About*/
 
 /*Contact*/
