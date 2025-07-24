@@ -101,6 +101,10 @@ header h2{
     justify-content: center;
 }
 
+main h2 {
+    margin-bottom: 1.5rem;
+}
+
 /*About*/
 
 /*Contact*/
