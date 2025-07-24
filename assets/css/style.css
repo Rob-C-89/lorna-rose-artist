@@ -35,6 +35,9 @@ h2 {
     font-family: var(--primary-font);
 }
 
+h5 {
+    font-family: var(--primary-font);
+}
 
 
 p {
@@ -114,7 +117,32 @@ main h2 {
 /*center the gallery images on smaller screens*/
  .card {
     margin: auto;
+    border-radius: 0;
+    background-color: var(--secondary-color);
+    color: aliceblue;
+    height: 100%;
+    min-height: 630px;
+
  }
+
+.card-title {
+    margin-top: auto;
+}
+
+ .card-img-top {
+    border-radius: 0%;
+    padding: 10px;
+ }
+
+.card-body {
+  position: relative;
+ }
+
+ .card-text-span {
+    position:absolute;
+    bottom: 16px;
+ }
+
 
 /*Footer*/
 
