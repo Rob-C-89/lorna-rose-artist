@@ -57,6 +57,12 @@ p {
     color: var(--highlight-color);
 }
 
+.navbar-toggler {
+    border-color: var(--highlight-color);
+    color: var(--highlight-color);
+    
+}
+
 .nav-link {
     color: var(--highlight-color);
 }
