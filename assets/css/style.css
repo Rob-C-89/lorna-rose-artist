@@ -209,3 +209,14 @@ main h2 {
 
 
 }
+
+@media screen and (min-width: 1200px) {
+     .card-img-top {
+        max-height: 400px;
+     }
+
+     .card {
+        min-height: 520px;
+     }
+
+}
