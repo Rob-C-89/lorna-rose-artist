@@ -122,7 +122,7 @@ main h2 {
     border-radius: 0;
     background-color: var(--secondary-color);
     height: 100%;
-    min-height: 560px;
+    min-height: 450px;
     border-width: 2px;
 }
 
@@ -133,6 +133,8 @@ main h2 {
  .card-img-top {
     border-radius: 0%;
     padding: 10px;
+    max-height: 300px;
+    object-fit: contain;
  }
 
 .card-body {
