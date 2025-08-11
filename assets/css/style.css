@@ -76,6 +76,7 @@ p {
     color: var(--secondary-color);
 }
 
+/*Prevent navbar-toggler from highlighting when active*/
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -182,10 +183,10 @@ main h2 {
 
 }
 
-
+/*Media query for screens up to 768px*/
 @media only screen and (max-width: 767.5px) {
  
-
+/*Re-order homepage text and images*/
   main {
     flex-wrap: wrap;
   }
@@ -218,6 +219,9 @@ main h2 {
 
 }
 
+/*Media query for 1200px and above devices*/
+
+/*Re-size gallery images on large screens*/
 @media screen and (min-width: 1200px) {
      .card-img-top {
         max-height: 400px;
