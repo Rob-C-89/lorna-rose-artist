@@ -72,9 +72,9 @@ p {
     color: var(--highlight-color);
 }
 
-.active {
+/*.active {
     color: var(--secondary-color);
-}
+}*/
 
 /*Header*/
 
