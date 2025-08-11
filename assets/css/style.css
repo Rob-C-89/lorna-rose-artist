@@ -171,3 +171,39 @@ main h2 {
     color: var(--highlight-color);
 
 }
+
+
+@media only screen and (max-width: 767.5px) {
+ 
+
+  main {
+    flex-wrap: wrap;
+  }
+
+  #about-txt {
+    order: 1;
+  }
+
+  #about-img {
+    order: 2;
+  }
+
+  #commission-txt {
+    order: 3;
+  }
+
+  #commission-img {
+    order: 4;
+  }
+
+  #tutor-txt {
+    order: 5;
+  }
+
+  #tutor-img {
+    order: 6;
+  }
+
+
+
+}
