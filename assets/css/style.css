@@ -22,6 +22,7 @@
 
 body {
     background-color: var(--secondary-color);
+    min-height: 100vh;
    
 }
 
@@ -150,6 +151,9 @@ main h2 {
     color: var(--highlight-color);
     margin: 0;
     max-width: unset;
+    position: sticky;
+    top: 100%;
+
 }
 
 #social-media {
