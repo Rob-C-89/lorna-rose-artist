@@ -78,7 +78,7 @@ p {
     color: var(--secondary-color);
 }
 
-/*Prevent navbar-toggler from highlighting when active*/
+/*Prevent navbar-toggler from highlighting when active, provided by Stack Overflow*/
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
