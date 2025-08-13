@@ -45,9 +45,11 @@ p {
     font-family: var(--secondary-font);
 }
 
-
-
-
+.btn {
+    background-color: var(--highlight-color);
+    border: 15px var(--primary-color) !important;
+    color: var(--primary-color);
+}
 
 
 
@@ -113,6 +115,10 @@ header h2{
 .home-img {
     display: flex;
     justify-content: center;
+}
+
+.home-txt {
+    padding: 0 7% 0;
 }
 
 main h2 {
@@ -230,5 +236,6 @@ main h2 {
      .card {
         min-height: 520px;
      }
+
 
 }
