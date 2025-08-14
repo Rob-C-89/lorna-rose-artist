@@ -156,7 +156,7 @@ main h2 {
   position: relative;
  }
 
- .card-text-span {
+ .card-text-block {
     position:absolute;
     bottom: 16px;
  }
