@@ -75,7 +75,7 @@ p {
 }
 
 .active {
-    color: var(--secondary-color);
+    color: var(--secondary-color) !important;
 }
 
 /*Prevent navbar-toggler from highlighting when active, provided by Stack Overflow*/
