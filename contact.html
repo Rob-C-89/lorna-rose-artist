@@ -67,20 +67,23 @@
             </div>
         </div>
     </section>
-
+    <!--Contact Form-->
     <section id="contact" class="container mb-4" >
         <form class="row" action="form-submission.html" method="get">
+        <!--Name-->
             <div class="mb-3 col-12 col-md-6 col-lg-4">
                 <label for="full-name" class="form-label">Full Name</label>
-                <input type="name" class="form-control" id="full-name" aria-describedby="emailHelp">
+                <input type="text" class="form-control" id="full-name" required>
             </div>
+        <!--Email-->
             <div class="mb-3 col-12 col-md-6 col-lg-4">
                 <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="email" required>
             </div>
+        <!--Subject-->
             <div class="mb-3 col-12 col-md-6 col-lg-4">
-                <label for="exampleInputEmail1" class="form-label">Subject</label>
-                <select class="form-select" aria-label="Default select example">
+                <label for="subject" class="form-label">Subject</label>
+                <select class="form-select" id="subject" required>
                     <option selected value="">Please select</option>
                     <option value="1">Purchase artwork</option>
                     <option value="2">Commission a portrait </option>
@@ -88,10 +91,12 @@
                     <option value="4">Other</option>
                 </select>                             
             </div>
+        <!--Message-->
             <div class="mb-3 col-12">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
             </div>
+        <!--Submit-->
             <div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </div>
