@@ -45,6 +45,16 @@ p {
     font-family: var(--secondary-font);
 }
 
+p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
 /* Button */
 
 .btn {
