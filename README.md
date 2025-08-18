@@ -1,11 +1,9 @@
-﻿INCOMPLETE
-
-
-Lorna Rose - Artist
+﻿
+#Lorna Rose - Artist
 
 ![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/techsini-mockup.png)
 
-Description:
+##Description:
 
 The Lorna Rose - Artist website is a website for a professional artist Lorna Rose
 
@@ -16,7 +14,7 @@ The target audience is fans of the artist's work, or those who might be curious 
 The site will be useful to users looking to purchase an art piece, commission a portrait or book a lesson. 
 
 
-How to use the project:
+##How to use the project:
 The website has a simple layout typical of many websites, which most users would be familiar with. The user should find it easy to navigate the website, find the information they require, and perform the action of contacting the owner.
 
 
