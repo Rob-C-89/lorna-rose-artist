@@ -69,7 +69,7 @@
     </section>
     <!--Contact Form-->
     <div id="contact" class="container mb-4" >
-        <form class="row" action="form-submission.html" method="get">
+        <form class="row" action="form-submission.html" method="post">
         <!--Name-->
             <div class="mb-3 col-12 col-md-6 col-lg-4">
                 <label for="full-name" class="form-label">Full Name</label>
@@ -83,18 +83,18 @@
         <!--Subject-->
             <div class="mb-3 col-12 col-md-6 col-lg-4">
                 <label for="subject" class="form-label">Subject</label>
-                <select class="form-select" name="subject" id="subject" required>
+                <select  name="subject" class="form-select" id="subject" required>
                     <option selected value="">Please select</option>
-                    <option value="1">Purchase artwork</option>
-                    <option value="2">Commission a portrait </option>
-                    <option value="3">Art Lesson</option>
-                    <option value="4">Other</option>
+                    <option value="purchase_artwork">Purchase artwork</option>
+                    <option value="commission_portrait">Commission a portrait </option>
+                    <option value="book_lesson">Art Lesson</option>
+                    <option value="other">Other</option>
                 </select>                             
             </div>
         <!--Message-->
             <div class="mb-3 col-12">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
+                <textarea name="message" class="form-control" id="message" rows="3" required></textarea>
             </div>
         <!--Submit-->
             <div>
