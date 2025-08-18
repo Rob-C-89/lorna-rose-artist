@@ -252,5 +252,7 @@ Google Fonts was used for custom fonts
 
 Font Awesome was used for social media icons in the footer
 
+Techsini Mockup was used for the website mick-up image at the beginning of the read me file
+
 
 
