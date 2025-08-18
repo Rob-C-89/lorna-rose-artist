@@ -136,6 +136,7 @@ The images are set to height 300px to ensure they are displayed in full on small
 
 ![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/gallery-large.png)
 
+### Form Testing
 
 The form has been tested, so that it won't send unless all inputs are filled in correctly:
 
