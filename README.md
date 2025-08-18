@@ -203,12 +203,37 @@ The site was deployed to GitHub pages using the following steps (sourced from Co
 
 The link to view the site is as follows: https://rob-c-89.github.io/lorna-rose-artist/
 
+### Cloning
+
+Cloning a repository pulls down a full copy of all the repository data that GitHub.com has at that point in time, including all versions of every file and folder for the project. You can push your changes to the remote repository on GitHub.com, or pull other people's changes from GitHub.com. 
+
+You can clone the repository from using the following steps:
+
+1. On GitHub, navigate to the main page of the repository
+2. Above the list of files, click  <> Code.
+3. Select whether you prefer HTTPS, SSH or CLI, then copy the URL with the clipboard icon
+4. Open Git Bash or Terminal
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL. It will look like this:
+    * git clone https://github.com/Rob-C-89/lorna-rose-artist
+7. Press Enter to create your local clone.
+
+
+### Forking 
+
+As an alternative to cloning the repo, you may fork it to your account. This will keep your version free from source updates, allowing you to work on the repository without code or content being altered.
+
+You can fork the repository using the following stepsL
+
+1. Log into your account then navigate to the repository:
+    * https://github.com/Rob-C-89/lorna-rose-artist
+2. In the top-right corner of the window, you'll see a "Fork" button. 
+3. Click the Fork button to begin the forking process.
+
 
 ## Credits:
 
 ### Content:
-
-Credit code institute’s websites?
 
 JSS Code to collapse the bootstrap navbar icon on smaller devices when navigating to internal links was taken from Code Institute’s Full Stack Software course.
 
@@ -220,8 +245,11 @@ Bootstrap templates were used for the navbar, contact form and cards on the gall
 ### Media:
 
 The website’s copyright-free header image was taken from stock photos website https://www.pexels.com/
-Portrait images on homepage and gallery were provided by Lorna Rose
+
+Portrait images on homepage and gallery were provided by Lorna Rose with her permission
+
 Google Fonts was used for custom fonts
+
 Font Awesome was used for social media icons in the footer
 
 
