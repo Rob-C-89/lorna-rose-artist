@@ -45,13 +45,18 @@ p {
     font-family: var(--secondary-font);
 }
 
+/* Button */
+
 .btn {
     background-color: var(--highlight-color);
     border: 15px var(--primary-color) !important;
     color: var(--primary-color);
 }
 
-
+.btn:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
 
 /* Navbar */
 
@@ -86,6 +91,7 @@ p {
     box-shadow: none;
 }
 
+/*Add underline effect on navbar hovering, and override Bootstrap color change*/
 .navbar a:hover {
     border-bottom: 1.5px solid var(--highlight-color);
     color: var(--highlight-color) !important;
