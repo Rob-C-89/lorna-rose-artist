@@ -3,7 +3,7 @@
 
 Lorna Rose - Artist
 
-https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/homepage-1.png
+![alt text](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/homepage-1.png)
 
 Description:
 
@@ -104,4 +104,5 @@ Portrait images on homepage and gallery were provided by Lorna Rose
 Google Fonts was used for custom fonts
 Font Awesome was used for social media icons in the footer
 # lorna-rose-artist
+
 
