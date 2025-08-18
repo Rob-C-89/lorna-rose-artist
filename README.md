@@ -1,9 +1,9 @@
 ﻿
-#Lorna Rose - Artist
+# Lorna Rose - Artist
 
 ![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/techsini-mockup.png)
 
-##Description:
+## Description:
 
 The Lorna Rose - Artist website is a website for a professional artist Lorna Rose
 
