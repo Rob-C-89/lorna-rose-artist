@@ -195,9 +195,9 @@ The site was deployed to GitHub pages using the following steps (sourced from Co
 1. In the GitHub repo., navigate to Settings
 2. On the left-hand sidebar, in the Code and automation section, select Pages.
 3. Make sure:
-* Source is set to 'Deploy from Branch'.
-* Main branch is selected.
-* Folder is set to / (root).
+    * Source is set to 'Deploy from Branch'.
+    * Main branch is selected.
+    * Folder is set to / (root).
 4. Under Branch, click Save.
 
 
