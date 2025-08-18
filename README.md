@@ -3,7 +3,7 @@
 
 Lorna Rose - Artist
 
-![alt text](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/homepage-1.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/techsini-mockup.png)
 
 Description:
 
@@ -26,19 +26,32 @@ Navigation bar
 
 The navbar is displayed at the top of the website, on all three pages. It displays the name of the website and includes links to the About, Commissions and Tuition sections on the homepage, the Gallery page, and the Contact page. Remaining identical on all pages, the user should be able to navigate the website with ease.
 
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/homepage-1.png)
+
+
  The navigation bar is fully responsive, and collapses on smaller devices.
+
+ ![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/nav-bar-collapsed.png)
+
 
 Header Image 
 
 The header image is displayed across all pages on the website, with overlaid text displaying the name of the artist and her speciality. This ties the website together, and makes clear to the user the purpose of the website.
 
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/header.png)
+
+
 Homepage
 
 The homepage contains three sections, each with an image by the artist. This communicates information to the user about the artist and the services they provide.
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/homepage-1.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/homepage-2.png)
 
 Footer
 
 A footer is displayed across all pages of the site, with copyright information and links to social media accounts, which open in a new browser tab.
+
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/footer.png)
 
 Please note the artist's accounts are incomplete/unavailable, so the links currently open to the homepage of the relevant sites. These would be updated or removed as necessary.
 
@@ -47,16 +60,32 @@ Gallery
 
 The gallery page displays six of the artist’s paintings and information on their price and medium. This section would be updated with new works as they become available, and works that have been sold would be removed.
 
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/gallery-tablet.png)
+
 
 This section is valuable to the business as one of the key goals of the site is to provide online sales of the artist’s work. It is valuable to users who want to purchase art, or simply to view it as an enthusiast.
+
+Please note the artist has supplied 5 quality images, so image 1 Short-Haired-Man has been repeated.
 
 Contact
 
 The contact page contains a form for the user, with a dropdown selection containing the three main services the artist provides. The form will not send if the user's contact information is incomplete.
 
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/contact-form.png)
+
+
 Successful submission page
 
 Upon completing the form successfully, the user is taken to a page telling them the form has been sent and the site owner will reply shortly. This is to assure the user that their action has been successful and boost confidence in the site’s efficacy. A button below the message will return the user to the homepage.
+
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/success.png)
+
+
+Custom 404 page
+
+I have created a custom 404 error page which is displayed when a broken link is followed
+
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/custom-404.png)
 
 Testing
 
@@ -64,17 +93,48 @@ The website has been tested as a user and all features work as intended.
 
 The website has been tested for responsivity using Chrome DevTools. The navbar links collapse into a burger icon on smaller screens. 
 
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/nav-bar-collapsed.png)
+
 On smaller screens, the homepage text and images rearrange into a single column, with a CSS media query to reorder the image and text (from text, image, image, text, text, image, to alternating text and image).
 
 The gallery images are displayed in two rows of three on large devices, three rows of two on medium devices, and a single column of six on small devices. It felt important to preserve the size of the images rather than reduce them with the size of the screen, given the importance of the images to both the business and user.
 
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/gallery-large.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/gallery-laptop.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/gallery-tablet.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/gallery-mobile.png)
+
+
+
 The images are set to height 300px to ensure they are displayed in full on smaller devices, with the gallery images increasing to 400px on larger screens for more impact. I was initially using a percentage height rule for images, which led to stretching on medium screens. After debugging, I came to realise a fixed height was more appropriate (as on mobile devices, the images wouldn’t fit on the screen, not a good feature for an image-driven site).
+
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/gallery-laptop.png)
+
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/gallery-large.png)
+
+
+The form has been tested, so that it won't send unless all inputs are filled in correctly:
+
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/form-required-name.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/form-required-input-type.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/form-require-select.png)
+
 
 Styling the burger icon on the Bootstrap navbar took some online research, with some lines of code taken directly from Stack Overflow to prevent an unattractive highlighting of the icon when active.
 
 Validator Testing
 
-Incomplete
+All of the site's pages have been passed through the w3c HTML and CSS validator. No errors are displayed.
+
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/validation/validator-homepage.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/validation/validator-gallery.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/validation/validator-contact.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/validation/validator-success.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/validation/validator-404.png)
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/validation/validator-CSS.png)
+
+
+
 
 Unfixed Bugs
 
@@ -103,6 +163,6 @@ The website’s copyright-free header image was taken from stock photos website 
 Portrait images on homepage and gallery were provided by Lorna Rose
 Google Fonts was used for custom fonts
 Font Awesome was used for social media icons in the footer
-# lorna-rose-artist
+
 
 
