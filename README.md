@@ -14,8 +14,23 @@ The target audience is fans of the artist's work, or those who might be curious 
 The site will be useful to users looking to purchase an art piece, commission a portrait or book a lesson. 
 
 
-## How to use the project:
+## User Experience:
+
 The website has a simple layout typical of many websites, which most users would be familiar with. The user should find it easy to navigate the website, find the information they require, and perform the action of contacting the owner.
+
+### Colour Scheme
+
+The colour scheme was devised by taking colours from the header image and lead image (Short Haired Man), and utilising them to give a coherent color scheme to the page with a defined contrast.
+
+## Typography
+
+Google Fonts was used for the typography. The cursive header font was used, as the style felt coherent with the subject of the website. A sans-serif font was used for body paragraph text for ease of reading.
+
+### User Stories
+
+The user stories have been outlined in the projects folder of the repository. They can be found here:
+
+[User Stories](https://github.com/users/Rob-C-89/projects/4)
 
 
 ## Features:
@@ -175,7 +190,16 @@ There are no known unfixed bugs to the developer.
 
 ## Deployment
 
-The site was deployed to GitHub pages.
+The site was deployed to GitHub pages using the following steps (sourced from Code Insitute Full Stack Diploma):
+
+1. In the GitHub repo., navigate to Settings
+2. On the left-hand sidebar, in the Code and automation section, select Pages.
+3. Make sure:
+....* Source is set to 'Deploy from Branch'.
+...* Main branch is selected.
+....* Folder is set to / (root).
+4. Under Branch, click Save.
+
 
 The link to view the site is as follows: https://rob-c-89.github.io/lorna-rose-artist/
 
@@ -185,8 +209,11 @@ The link to view the site is as follows: https://rob-c-89.github.io/lorna-rose-a
 ### Content:
 
 Credit code institute’s websites?
+
 JSS Code to collapse the bootstrap navbar icon on smaller devices when navigating to internal links was taken from Code Institute’s Full Stack Software course.
+
 Code to prevent the navbar icon from highlighting when active was taken from Stack Overflow
+
 Bootstrap templates were used for the navbar, contact form and cards on the gallery page.
 
 
