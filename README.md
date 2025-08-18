@@ -132,9 +132,6 @@ The gallery images are displayed in two rows of three on large devices, three ro
 
 The images are set to height 300px to ensure they are displayed in full on smaller devices, with the gallery images increasing to 400px on larger screens for more impact. I was initially using a percentage height rule for images, which led to stretching on medium screens. After debugging, I came to realise a fixed height was more appropriate (as on mobile devices, the images wouldn’t fit on the screen, not a good feature for an image-driven site).
 
-![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/gallery-laptop.png)
-
-![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/gallery-large.png)
 
 ### Form Testing
 
