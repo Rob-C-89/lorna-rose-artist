@@ -94,7 +94,6 @@ The gallery page displays six of the artist’s paintings and information on the
 
 This section is valuable to the business as one of the key goals of the site is to provide online sales of the artist’s work. It is valuable to users who want to purchase art, or simply to view it as an enthusiast.
 
-Please note the artist has supplied 5 quality images, so image 1 Short-Haired-Man has been repeated.
 
 
 ### Contact
