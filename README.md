@@ -250,6 +250,8 @@ Code to prevent the navbar icon from highlighting when active was taken from Sta
 
 Bootstrap templates were used for the navbar, contact form and cards on the gallery page.
 
+Code was formatted using Prettier Code Formatter
+
 
 ### Media:
 
