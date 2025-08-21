@@ -1,215 +1,197 @@
-
 /*Google Fonts import*/
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap");
 
 /*CSS Variables*/
 
 :root {
   --cursive-font: "Tangerine", cursive;
-  --primary-font:  "Libre Baskerville", serif;
-  --secondary-font:  "Noto Sans", sans-serif;
-  --primary-color: #5C4033; /*dark brown*/
-  --secondary-color:#ffe4c4; /*vanilla*/
+  --primary-font: "Libre Baskerville", serif;
+  --secondary-font: "Noto Sans", sans-serif;
+  --primary-color: #5c4033; /*dark brown*/
+  --secondary-color: #ffe4c4; /*vanilla*/
   --highlight-color: #a2d4ca; /*cutty sark (light blue)*/
   --light-highlight-color: #a7dddc; /*aquamarine*/
-
 }
-
-
 
 /*global styles*/
 
 body {
-    background-color: var(--secondary-color);
-    min-height: 100vh;
-   
+  background-color: var(--secondary-color);
+  min-height: 100vh;
 }
 
 h1 {
-    font-family: var(--cursive-font);
-    font-size: 400%;
+  font-family: var(--cursive-font);
+  font-size: 400%;
 }
 
 h2 {
-    text-align: center;
-    font-family: var(--primary-font);
+  text-align: center;
+  font-family: var(--primary-font);
 }
 
 h5 {
-    font-family: var(--primary-font);
+  font-family: var(--primary-font);
 }
 
-
 p {
-    font-family: var(--secondary-font);
+  font-family: var(--secondary-font);
 }
 
 p a {
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
 p a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Button */
 
 .btn {
-    background-color: var(--highlight-color);
-    border: 15px var(--primary-color) !important;
-    color: var(--primary-color);
+  background-color: var(--highlight-color);
+  border: 15px var(--primary-color) !important;
+  color: var(--primary-color);
 }
 
 .btn:hover {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 /* Navbar */
 
 .navbar {
-    background-color: var(--primary-color);
-    font-family: var(--primary-font);
+  background-color: var(--primary-color);
+  font-family: var(--primary-font);
 }
 
 .navbar-brand {
-    color: var(--highlight-color);
+  color: var(--highlight-color);
 }
 
 .navbar-toggler {
-    border-color: var(--highlight-color);
-    color: var(--highlight-color);
-    
+  border-color: var(--highlight-color);
+  color: var(--highlight-color);
 }
 
 .nav-link {
-    color: var(--highlight-color);
+  color: var(--highlight-color);
 }
 
 .active {
-    color: var(--secondary-color) !important;
+  color: var(--secondary-color) !important;
 }
 
 /*Prevent navbar-toggler from highlighting when active, provided by Stack Overflow*/
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 /*Add underline effect on navbar hovering, and override Bootstrap color change*/
 .navbar a:hover {
-    border-bottom: 1.5px solid var(--highlight-color);
-    color: var(--highlight-color) !important;
-
+  border-bottom: 1.5px solid var(--highlight-color);
+  color: var(--highlight-color) !important;
 }
-
 
 /*Header*/
 
-header h2{
-    font-family: var(--cursive-font);
-    font-size: 200%;
-}
-
-
-#hero {
- 
-    background-color:#5C4033;
-    background-image: url(../images/header-image.webp);
-    min-height: 150px;
-    background-size: cover;
-    background-position: 50% 70%;
-    color:bisque;
-
+header h2 {
+  font-family: var(--cursive-font);
+  font-size: 200%;
 }
 
 #hero {
-    color: var(--secondary-color);
+  background-color: #5c4033;
+  background-image: url(../images/header-image.webp);
+  min-height: 150px;
+  background-size: cover;
+  background-position: 50% 70%;
+  color: bisque;
+}
+
+#hero {
+  color: var(--secondary-color);
 }
 
 /*Main section*/
 
 .home-img {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .home-txt {
-    padding: 0 7% 0;
+  padding: 0 7% 0;
 }
 
 main h2 {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-
 /*center the gallery images on smaller screens*/
- .card {
-    margin: auto;
-    border-radius: 0;
-    background-color: var(--secondary-color);
-    height: 100%;
-    min-height: 450px;
-    border-width: 2px;
+.card {
+  margin: auto;
+  border-radius: 0;
+  background-color: var(--secondary-color);
+  height: 100%;
+  min-height: 450px;
+  border-width: 2px;
 }
 
 .card-title {
-    margin-top: auto;
+  margin-top: auto;
 }
 
- .card-img-top {
-    border-radius: 0%;
-    padding: 10px;
-    max-height: 300px;
-    object-fit: contain;
- }
+.card-img-top {
+  border-radius: 0%;
+  padding: 10px;
+  max-height: 300px;
+  object-fit: contain;
+}
 
 .card-body {
   position: relative;
- }
+}
 
- .card-text-block {
-    position:absolute;
-    bottom: 16px;
- }
-
+.card-text-block {
+  position: absolute;
+  bottom: 16px;
+}
 
 /*Footer*/
 
 #footer {
-    background-color: var(--primary-color);
-    color: var(--highlight-color);
-    margin: 0;
-    max-width: unset;
-    position: sticky;
-    top: 100%;
-
+  background-color: var(--primary-color);
+  color: var(--highlight-color);
+  margin: 0;
+  max-width: unset;
+  position: sticky;
+  top: 100%;
 }
 
 #social-media {
-    justify-content: center;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-
+  justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 #social-media i {
-    font-size: 180%;
-    padding: 20px;
-    color: var(--highlight-color);
-
+  font-size: 180%;
+  padding: 20px;
+  color: var(--highlight-color);
 }
 
 /*Media query for screens up to 768px*/
 @media only screen and (max-width: 767.5px) {
- 
-/*Re-order homepage text and images*/
+  /*Re-order homepage text and images*/
   main {
     flex-wrap: wrap;
   }
@@ -237,22 +219,17 @@ main h2 {
   #tutor-img {
     order: 6;
   }
-
-
-
 }
 
 /*Media query for 1200px and above devices*/
 
 /*Re-size gallery images on large screens*/
 @media screen and (min-width: 1200px) {
-     .card-img-top {
-        max-height: 400px;
-     }
+  .card-img-top {
+    max-height: 400px;
+  }
 
-     .card {
-        min-height: 520px;
-     }
-
-
+  .card {
+    min-height: 520px;
+  }
 }
