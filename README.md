@@ -22,6 +22,17 @@ The website has a simple layout typical of many websites, which most users would
 
 The colour scheme was devised by taking colours from the header image and lead image (Short Haired Man), and utilising them to give a coherent color scheme to the page with a defined contrast.
 
+### Contrast
+
+Colour scheme was checked for contrast using www.colourcontrastchecker.com. The navbar and footer conform to WCAG AA standards, with the rest of the site conforming to AAA standards. I wouldn't have accepted the main body of the site reaching AA, but found AA standards for the navbar and footer to be acceptable.
+
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/contrast-1.png)
+
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/contrast-2.png)
+
+![screenshot](https://github.com/Rob-C-89/lorna-rose-artist/blob/main/documentation/screenshots/contrast-3.png)
+
+
 ## Typography
 
 Google Fonts was used for the typography. The cursive header font was used, as the style felt coherent with the subject of the website. A sans-serif font was used for body paragraph text for ease of reading.
@@ -248,9 +259,14 @@ Portrait images on homepage and gallery were provided by Lorna Rose with her per
 
 Google Fonts was used for custom fonts
 
-Font Awesome was used for social media icons in the footer
+Font Awesome was used for social media icons in the footer and site favicon
 
-Techsini Mockup was used for the website mick-up image at the beginning of the read me file
+Techsini Mockup was used for the website mock-up image at the beginning of the read me file
+
+Images sizes were reduced using www.tinyjpeg.com
+
+Images were converted to webp using www.convertio.co
+
 
 
 
